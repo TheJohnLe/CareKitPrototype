@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import CareKit
 import CareKitUI
+import CareKitStore
 
 struct ContentView: View {
     
     var body: some View {
         
+        // TODO: Currently showing this, maybe somehow create a whole view ? Not sure
         VStack {
             SimpleTaskView(title:Text("Sample SimpleTaskView"), isComplete: false)
             InstructionsTaskView(title:Text("Sample InstructionsTaskView"), isComplete: false)

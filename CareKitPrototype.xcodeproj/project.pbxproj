@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34363F052524D77900793504 /* OCKStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34363F042524D77900793504 /* OCKStore.swift */; };
+		34363F082524DBDA00793504 /* CareStoreReferenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34363F072524DBDA00793504 /* CareStoreReferenceManager.swift */; };
+		34363F0B2524DBF400793504 /* SymptomTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34363F0A2524DBF400793504 /* SymptomTrackerViewController.swift */; };
 		344CA3AF252449A000A55D21 /* CareKitPrototypeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA3AE252449A000A55D21 /* CareKitPrototypeApp.swift */; };
 		344CA3B1252449A000A55D21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA3B0252449A000A55D21 /* ContentView.swift */; };
 		344CA3B3252449A100A55D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344CA3B2252449A100A55D21 /* Assets.xcassets */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34363F042524D77900793504 /* OCKStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCKStore.swift; sourceTree = "<group>"; };
+		34363F072524DBDA00793504 /* CareStoreReferenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareStoreReferenceManager.swift; sourceTree = "<group>"; };
+		34363F0A2524DBF400793504 /* SymptomTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomTrackerViewController.swift; sourceTree = "<group>"; };
 		344CA3AB252449A000A55D21 /* CareKitPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CareKitPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		344CA3AE252449A000A55D21 /* CareKitPrototypeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareKitPrototypeApp.swift; sourceTree = "<group>"; };
 		344CA3B0252449A000A55D21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +74,9 @@
 				344CA3C2252449DD00A55D21 /* ChartView.swift */,
 				344CA3C5252449E700A55D21 /* ContactView.swift */,
 				344CA3C8252449F300A55D21 /* LogTaskView.swift */,
+				34363F042524D77900793504 /* OCKStore.swift */,
+				34363F072524DBDA00793504 /* CareStoreReferenceManager.swift */,
+				34363F0A2524DBF400793504 /* SymptomTrackerViewController.swift */,
 			);
 			path = CareKitPrototype;
 			sourceTree = "<group>";
@@ -156,9 +165,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				344CA3B1252449A000A55D21 /* ContentView.swift in Sources */,
+				34363F052524D77900793504 /* OCKStore.swift in Sources */,
 				344CA3C9252449F300A55D21 /* LogTaskView.swift in Sources */,
 				344CA3AF252449A000A55D21 /* CareKitPrototypeApp.swift in Sources */,
 				344CA3C3252449DD00A55D21 /* ChartView.swift in Sources */,
+				34363F0B2524DBF400793504 /* SymptomTrackerViewController.swift in Sources */,
+				34363F082524DBDA00793504 /* CareStoreReferenceManager.swift in Sources */,
 				344CA3C6252449E700A55D21 /* ContactView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
