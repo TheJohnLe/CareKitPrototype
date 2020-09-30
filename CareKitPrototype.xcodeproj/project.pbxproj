@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,10 @@
 		344CA3B1252449A000A55D21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA3B0252449A000A55D21 /* ContentView.swift */; };
 		344CA3B3252449A100A55D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344CA3B2252449A100A55D21 /* Assets.xcassets */; };
 		344CA3B6252449A100A55D21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344CA3B5252449A100A55D21 /* Preview Assets.xcassets */; };
+		344CA3C0252449C700A55D21 /* CareKit in Frameworks */ = {isa = PBXBuildFile; productRef = 344CA3BF252449C700A55D21 /* CareKit */; };
+		344CA3C3252449DD00A55D21 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA3C2252449DD00A55D21 /* ChartView.swift */; };
+		344CA3C6252449E700A55D21 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA3C5252449E700A55D21 /* ContactView.swift */; };
+		344CA3C9252449F300A55D21 /* LogTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA3C8252449F300A55D21 /* LogTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,9 @@
 		344CA3B2252449A100A55D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		344CA3B5252449A100A55D21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		344CA3B7252449A100A55D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		344CA3C2252449DD00A55D21 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		344CA3C5252449E700A55D21 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		344CA3C8252449F300A55D21 /* LogTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				344CA3C0252449C700A55D21 /* CareKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +65,9 @@
 				344CA3B2252449A100A55D21 /* Assets.xcassets */,
 				344CA3B7252449A100A55D21 /* Info.plist */,
 				344CA3B4252449A100A55D21 /* Preview Content */,
+				344CA3C2252449DD00A55D21 /* ChartView.swift */,
+				344CA3C5252449E700A55D21 /* ContactView.swift */,
+				344CA3C8252449F300A55D21 /* LogTaskView.swift */,
 			);
 			path = CareKitPrototype;
 			sourceTree = "<group>";
@@ -85,6 +96,9 @@
 			dependencies = (
 			);
 			name = CareKitPrototype;
+			packageProductDependencies = (
+				344CA3BF252449C700A55D21 /* CareKit */,
+			);
 			productName = CareKitPrototype;
 			productReference = 344CA3AB252449A000A55D21 /* CareKitPrototype.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +126,9 @@
 				Base,
 			);
 			mainGroup = 344CA3A2252449A000A55D21;
+			packageReferences = (
+				344CA3BE252449C700A55D21 /* XCRemoteSwiftPackageReference "CareKit" */,
+			);
 			productRefGroup = 344CA3AC252449A000A55D21 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				344CA3B1252449A000A55D21 /* ContentView.swift in Sources */,
+				344CA3C9252449F300A55D21 /* LogTaskView.swift in Sources */,
 				344CA3AF252449A000A55D21 /* CareKitPrototypeApp.swift in Sources */,
+				344CA3C3252449DD00A55D21 /* ChartView.swift in Sources */,
+				344CA3C6252449E700A55D21 /* ContactView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +348,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		344CA3BE252449C700A55D21 /* XCRemoteSwiftPackageReference "CareKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/carekit-apple/CareKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		344CA3BF252449C700A55D21 /* CareKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 344CA3BE252449C700A55D21 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 344CA3A3252449A000A55D21 /* Project object */;
 }
