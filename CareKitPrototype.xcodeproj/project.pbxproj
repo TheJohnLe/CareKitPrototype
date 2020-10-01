@@ -18,6 +18,9 @@
 		344CA3C3252449DD00A55D21 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA3C2252449DD00A55D21 /* ChartView.swift */; };
 		344CA3C6252449E700A55D21 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA3C5252449E700A55D21 /* ContactView.swift */; };
 		344CA3C9252449F300A55D21 /* LogTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA3C8252449F300A55D21 /* LogTaskView.swift */; };
+		346DE6C8252553B000E35CFF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346DE6C7252553B000E35CFF /* DetailView.swift */; };
+		346DE6CB2525540000E35CFF /* MyLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346DE6CA2525540000E35CFF /* MyLinkView.swift */; };
+		346DE6CE252554D500E35CFF /* MySynchronizedTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346DE6CD252554D500E35CFF /* MySynchronizedTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		344CA3C2252449DD00A55D21 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		344CA3C5252449E700A55D21 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		344CA3C8252449F300A55D21 /* LogTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTaskView.swift; sourceTree = "<group>"; };
+		346DE6C7252553B000E35CFF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		346DE6CA2525540000E35CFF /* MyLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLinkView.swift; sourceTree = "<group>"; };
+		346DE6CD252554D500E35CFF /* MySynchronizedTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySynchronizedTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,9 @@
 			children = (
 				344CA3AE252449A000A55D21 /* CareKitPrototypeApp.swift */,
 				344CA3B0252449A000A55D21 /* ContentView.swift */,
+				346DE6C7252553B000E35CFF /* DetailView.swift */,
+				346DE6CA2525540000E35CFF /* MyLinkView.swift */,
+				346DE6CD252554D500E35CFF /* MySynchronizedTaskView.swift */,
 				344CA3B2252449A100A55D21 /* Assets.xcassets */,
 				344CA3B7252449A100A55D21 /* Info.plist */,
 				344CA3B4252449A100A55D21 /* Preview Content */,
@@ -164,7 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				346DE6CE252554D500E35CFF /* MySynchronizedTaskView.swift in Sources */,
 				344CA3B1252449A000A55D21 /* ContentView.swift in Sources */,
+				346DE6C8252553B000E35CFF /* DetailView.swift in Sources */,
+				346DE6CB2525540000E35CFF /* MyLinkView.swift in Sources */,
 				34363F052524D77900793504 /* OCKStore.swift in Sources */,
 				344CA3C9252449F300A55D21 /* LogTaskView.swift in Sources */,
 				344CA3AF252449A000A55D21 /* CareKitPrototypeApp.swift in Sources */,
